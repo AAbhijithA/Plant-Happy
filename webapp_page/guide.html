@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Banana Plant Guide</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.15/dist/tailwind.min.css" rel="stylesheet">
+    <link rel="icon" href="https://static.vecteezy.com/system/resources/previews/023/743/705/non_2x/plant-growing-graphic-clipart-design-free-png.png">
+    <style>
+        a:hover{
+            color: lightgreen;
+        }
+    </style>
+</head>
+<body class="bg-gray-100">
+    <header class="bg-green-500 text-white py-4">
+        <h1 class="text-3xl font-bold text-center">Banana Plant Guide</h1>
+    </header>
+    <nav class="bg-gray-800 text-white p-4">
+        <ul class="flex justify-center">
+            <li class="mr-4"><a href="#introduction" class="text-lg hover:text-green-500">Introduction</a></li>
+            <li class="mr-4"><a href="#varieties" class="text-lg hover:text-green-500">Varieties</a></li>
+            <li class="mr-4"><a href="#care" class="text-lg hover:text-green-500">Care and Maintenance</a></li>
+            <li class="mr-4"><a href="#harvest" class="text-lg hover:text-green-500">Harvesting</a></li>
+            <li><a href="{{ url_for('home')}}" class="text-lg hover:text-green-500">Back to Homepage</a></li>
+        </ul>
+    </nav>
+    <main class="container mx-auto mt-8 p-4">
+        <section id="introduction" class="bg-white p-6 rounded shadow-md">
+            <h2 class="text-2xl font-bold"><a href="http://www.agritech.tnau.ac.in/expert_system/banana/cultivation.html">Introduction</a></h2>
+            <p class="text-lg">Learn about the fascinating world of banana plants and how to cultivate them in your garden.</p>
+        </section>
+        <section id="varieties" class="bg-white p-6 mt-4 rounded shadow-md">
+            <h2 class="text-2xl font-bold"><a href="https://nhb.gov.in/pdf/fruits/banana/ban013.pdf">Varieties</a></h2>
+            <p class="text-lg">Discover the different banana plant varieties and their unique characteristics.</p>
+        </section>
+        <section id="care" class="bg-white p-6 mt-4 rounded shadow-md">
+            <h2 class="text-2xl font-bold"><a href="https://www.planetnatural.com/banana-tree/">Care and Maintenance</a></h2>
+            <p class="text-lg">Find tips on how to care for your banana plants, including soil, water, and sunlight requirements.</p>
+        </section>
+        <section id="harvest" class="bg-white p-6 mt-4 rounded shadow-md">
+            <h2 class="text-2xl font-bold"><a href="https://nhb.gov.in/pdf/fruits/banana/ban004.pdf">Harvesting</a></h2>
+            <p class="text-lg">Learn when and how to harvest your delicious bananas.</p>
+        </section>
+    </main>
+    <footer class="bg-gray-800 text-white text-center py-2">
+        <p>&copy; 2023 Banana Plant Guide</p>
+    </footer>
+</body>
+</html>
