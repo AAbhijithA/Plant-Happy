@@ -16,7 +16,7 @@ loaded_model = None
 with open('RF_Model_Trained.pkl', 'rb') as f:
     loaded_model = pickle.load(f)
 
-link_for_image = "http://192.168.195.222/cam-hi.jpg"
+link_for_image = "Enter the url from the ESP32_Program for the camera image"
 
 while(True):
     rtimg = urllib.request.urlopen(link_for_image)
