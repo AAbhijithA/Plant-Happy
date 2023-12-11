@@ -32,17 +32,24 @@
 Ensure you have python downloaded on your system to run this, if not download from here: [Download Python](https://www.python.org/downloads/)
 
 * Update your Read, Write API keys and Channel ID in the **.env** file and also in the Arduino IDE code in the folder **ESP32_Program** for using your ThingSpeak Cloud Account.
-* In Arduino IDE ensure you download the ThingSpeak library along with ESP32 libaries for usage (Click here and follow Laptop Arduino IDE setup for ESP32 libraries as mentioned here in my previous project: [StepWise](https://github.com/AAbhijithA/StepWise/tree/main)).
+* In Arduino IDE ensure you download the ThingSpeak library along with ESP32 libaries for usage (Click here and follow Laptop Arduino IDE setup for ESP32 libraries and getting Image URL as mentioned here in my previous project: [StepWise](https://github.com/AAbhijithA/StepWise/tree/main)) and run the code for streaming data and pushing it to cloud after the connections.
 
-Install all the necessary libraries using the command:
+#### Install all the necessary libraries using the command:
 ```
 pip install -r requirements.txt
 ```
-Run the flask application by using:
+#### Run the disease detection script by using:
+```
+python disease_det_script.py
+```
+#### Run the flask application by using:
 ```
 python app.py
 ```
-
+## Contributors
+* Abhijith Ajith
+* Nakshathra
+* Viswaraje V
 
 
 
