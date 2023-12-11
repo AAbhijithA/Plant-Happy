@@ -19,6 +19,6 @@
 * **ESP32-Cam (OV2640):** Microcontroller with an OV2640 camera to capture images and retrieve analog signals from other sensors.
 * **Breakout Board:** Allows the FTDI programmer to transmit voltage via the board to the ESP32 Microcontroller.
 * **DHT11 Temperature & Humidity Sensor:** Allows us to get temperature in celcius and relative humidity.
-* **Capacitative Soil Moisture Sensor:** Allows us to retrieve soil moisture levels with a relative interval of 0 - 1000.
+* **Capacitive Soil Moisture Sensor:** Allows us to retrieve soil moisture levels with a relative interval of 0 - 1000.
 
 ## Architecture Diagram of the System
