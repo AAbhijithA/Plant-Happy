@@ -22,3 +22,4 @@
 * **Capacitive Soil Moisture Sensor:** Allows us to retrieve soil moisture levels with a relative interval of 0 - 1000.
 
 ## Architecture Diagram of the System
+![](UI_Image/PHappy_Arch.png)
